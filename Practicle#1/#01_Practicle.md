@@ -18,7 +18,7 @@
 *(To be added)*  
 
 ## 4. Source Code  
-[GitHub Repository](https://github.com/Naveen-nm27/IT1214_Practices)  
+[GitHub Repository]([https://github.com/Naveen-nm27/IT1214_Practices](https://github.com/Naveen-nm27/IT1214_Practices/tree/main/Practicle%231))  
 
 ## 5. Sample Input & Expected Output  
 *(To be added)*  
