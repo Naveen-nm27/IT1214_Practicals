@@ -95,8 +95,22 @@ Print updated details.
 
 ## 4. Source Code
 
+Code[https://github.com/Naveen-nm27/IT1214_Practicals/tree/main/%236/S06]
+
+
 ## 5. Sample Input & Expected Output
 
+
+
 ## 6. Observations 
+    
+    -We Can Create Many Constructors in a Class With Different Parameters 
+
+    -We Can Create Methods to Make our Code more Efficient by adding Repeating Code Blocks in them 
+
 
 ## 7. Conclusion
+
+    -Constructors Run Automatically when you crete a new object which can be very useful to initializes the objects
+
+    -
