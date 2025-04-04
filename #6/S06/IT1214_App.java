@@ -12,12 +12,12 @@ class Student{
 	}
 }
 
-/*class Printer{
+class Printer{
 	void print(String s){
 		System.out.println(s);
 	}
 }
-*/
+
 class App{
 	public static void main(String[] args){
 		Printer p=new Printer();

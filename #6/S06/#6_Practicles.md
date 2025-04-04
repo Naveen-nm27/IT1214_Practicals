@@ -15,7 +15,7 @@
 
 ## 2.Theory/Concepts
 
--A constructor in oop is a special type of method that gets called an object created(instantiated)
+**A constructor in oop is a special type of method that gets called an object created(instantiated)**
 
 ### Features and Workings of a Constructor
 
