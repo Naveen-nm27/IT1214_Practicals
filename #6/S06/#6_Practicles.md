@@ -54,7 +54,7 @@ class Student {
 ```
 ## 3. Algorithm / Flowchart 
     
-# Define a class Student
+### Define a class Student
 
     Declare two variables: name (String) and marks (int).
 
@@ -70,17 +70,17 @@ Define a parameterized constructor:
 
     Print "Name of the Student is: n Marks of S02 is: m".
 
-# Define a class Printer
+### Define a class Printer
 
     Contains a method print(String s) to display a string.
 
-# Define the App class with main() method
+### Define the App class with main() method
 
     Create an object of Printer class (currently this will cause a compile error because Printer is commented out).
 
     Print "Welcome to demo class App".
 
-# Create Student object S01 using the parameterized constructor
+### Create Student object S01 using the parameterized constructor
 
     Pass "Alice" and 100 as arguments.
 
@@ -89,12 +89,12 @@ Update S01's name and marks manually.
 
 Print updated details.
 
-# Create Student object S02 using the parameterized constructor
+### Create Student object S02 using the parameterized constructor
 
     Pass "Hatter" and 75 as arguments.
 
 ## 4. Source Code
-    
+
 ## 5. Sample Input & Expected Output
 
 ## 6. Observations 
