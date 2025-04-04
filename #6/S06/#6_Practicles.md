@@ -17,7 +17,7 @@
 
 -A constructor in oop is a special type of method that gets called an object created(instantiated)
 
-# Features and Workings of a Constructor
+### Features and Workings of a Constructor
 
 - **Same Name as the Class**  
   A constructor always has the same name as the class it belongs to.
