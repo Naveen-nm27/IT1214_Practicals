@@ -1,0 +1,363 @@
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> mkdir P4
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     15:53                P4
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> javac App.java
+.\P4\MyClass4.java:3: error: class Myclass4 is public, should be declared in a file named Myclass4.java
+public class Myclass4 {
+       ^
+App.java:4: error: cannot access MyClass4
+import P4.MyClass4;
+         ^
+  bad source file: .\P4\MyClass4.java
+    file does not contain class P4.MyClass4
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+App.java:17: error: cannot find symbol
+                MyClass4 c4 = new  MyClass4();
+                ^
+  symbol:   class MyClass4
+  location: class App
+App.java:17: error: cannot find symbol
+                MyClass4 c4 = new  MyClass4();
+                                   ^
+  symbol:   class MyClass4
+  location: class App
+4 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> javac App.java
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> java App
+Hi From my Class P1
+Hi From my Class P2
+Hi From P3
+Hi From p4
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> javac App.java
+App.java:20: error: bad operand types for binary operator '+'
+                System.out.println(c4+c2);
+                                     ^
+  first type:  MyClass4
+  second type: class2
+1 error
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> javac App.java
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> java App
+Hi From my Class P1
+Hi From my Class P2
+Hi From P3
+Hi From p4
+P4.MyClass4@2d363fb3
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> javac App.java
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> java App
+Hi From my Class P1
+Hi From my Class P2
+Hi From P3
+Hi From p4
+p2.class2@2d363fb3
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> ls
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     14:59                P1
+d-----        20/03/2025     15:34                p2
+d-----        20/03/2025     15:52                P3
+d-----        20/03/2025     15:58                P4
+-a----        20/03/2025     16:04            595 App.class
+-a----        20/03/2025     16:04            381 App.java
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S2> cd ..
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP> mkdir S3
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:10                S3
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP> cd S3
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> mkdir IT
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:12                IT
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> mkdir AMC
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:13                AMC
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> cds IT
+cds : The term 'cds' is not recognized as the name of a cmdlet, function, script
+file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ cds IT
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (cds:String) [], CommandNotFoundEx
+   ception
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> cd IT
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\IT> mkdir Y01
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\IT
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:13                Y01
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\IT> mkdir Y02
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\IT
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:13                Y02
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\IT> cd ..
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> ls
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:13                AMC
+d-----        20/03/2025     16:13                IT
+-a----        20/03/2025     16:11              0 App2.java
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3>
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> cd AMC
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\AMC> mkdir Y01
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\AMC
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:14                Y01
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\AMC> mkdir Y02
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\AMC
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:14                Y02
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\AMC> cd..
+>> ^C
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3\AMC> cd ..
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> ls
+
+
+    Directory: C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/03/2025     16:14                AMC
+d-----        20/03/2025     16:13                IT
+-a----        20/03/2025     16:11              0 App2.java
+
+
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:6: error: ';' expected
+                ab.display()
+                            ^
+App2.java:7: error: reached end of file while parsing
+        }
+         ^
+2 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:7: error: reached end of file while parsing
+        }
+         ^
+1 error
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:4: error: cannot find symbol
+        public static void main (string[] args){
+                                 ^
+  symbol:   class string
+  location: class App2
+.\IT\IT.java:3: error: class Myclass is public, should be declared in a file named Myclass.java
+public class Myclass {
+       ^
+App2.java:5: error: cannot access IT
+                IT.Y01 ab = new IT.Y01();
+                ^
+  bad source file: .\IT\IT.java
+    file does not contain class IT.IT
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+App2.java:5: error: cannot find symbol
+                IT.Y01 ab = new IT.Y01();
+                                  ^
+  symbol:   class Y01
+  location: package IT
+4 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> tree
+Folder PATH listing
+Volume serial number is 96E8-8CF4
+C:.
+├───AMC
+│   ├───Y01
+│   └───Y02
+└───IT
+    ├───Y01
+    └───Y02
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:4: error: cannot find symbol
+        public static void main (string[] args){
+                                 ^
+  symbol:   class string
+  location: class App2
+.\IT\IT.java:3: error: class Myclass is public, should be declared in a file named Myclass.java
+public class Myclass {
+       ^
+App2.java:5: error: cannot access IT
+                IT.ITY01 ab = new IT.Y01();
+                ^
+  bad source file: .\IT\IT.java
+    file does not contain class IT.IT
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.Y01();
+                                    ^
+  symbol:   class Y01
+  location: package IT
+4 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:4: error: cannot find symbol
+        public static void main (string[] args){
+                                 ^
+  symbol:   class string
+  location: class App2
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                  ^
+  symbol:   class ITY01
+  location: class IT
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                                    ^
+  symbol:   class ITY01
+  location: class IT
+3 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                  ^
+  symbol:   class ITY01
+  location: class IT
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                                    ^
+  symbol:   class ITY01
+  location: class IT
+2 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> tree
+Folder PATH listing
+Volume serial number is 96E8-8CF4
+C:.
+├───AMC
+│   ├───Y01
+│   └───Y02
+└───IT
+    ├───Y01
+    └───Y02
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:5: error: ';' expected
+                IT ITY01 ab = new IT ITY01();
+                        ^
+App2.java:5: error: '(' or '[' expected
+                IT ITY01 ab = new IT ITY01();
+                                     ^
+2 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                  ^
+  symbol:   class ITY01
+  location: class IT
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                                    ^
+  symbol:   class ITY01
+  location: class IT
+2 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                  ^
+  symbol:   class ITY01
+  location: class IT
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                                    ^
+  symbol:   class ITY01
+  location: class IT
+2 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                  ^
+  symbol:   class ITY01
+  location: class IT
+App2.java:5: error: cannot find symbol
+                IT.ITY01 ab = new IT.ITY01();
+                                    ^
+  symbol:   class ITY01
+  location: class IT
+2 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:5: error: ';' expected
+                IT ITY01 ab = new IT ITY01();
+                        ^
+App2.java:5: error: '(' or '[' expected
+                IT ITY01 ab = new IT ITY01();
+                                     ^
+2 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3> javac App2.java
+App2.java:5: error: ';' expected
+                IT ITY01 ab=new IT ITY01();
+                        ^
+App2.java:5: error: '(' or '[' expected
+                IT ITY01 ab=new IT ITY01();
+                                   ^
+2 errors
+PS C:\Users\2022ict138\Desktop\2022ICT138\Y01\SEM02\OOP\S3>
