@@ -44,7 +44,7 @@
 
 ## 4. Source Code
 
-[Code](https://github.com/Naveen-nm27/IT1214_Practicals/tree/main/%236/S06)
+[Code]((https://github.com/Naveen-nm27/IT1214_Practicals/tree/main/%237/S07))
 
 
 ## 5. Sample Input & Expected Output
