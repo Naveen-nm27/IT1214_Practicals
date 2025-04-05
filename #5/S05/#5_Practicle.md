@@ -41,12 +41,12 @@
 
 ## 4. Source Code
 
-[Code]()
+[Code](https://github.com/Naveen-nm27/IT1214_Practicals/blob/main/%235/S05/Practicle01.java)
 
 
 ## 5. Sample Input & Expected Output
 
-[FinalOutput]()
+[FinalOutput](https://github.com/Naveen-nm27/IT1214_Practicals/tree/main/%235/S05/Output)
 
 ## 6. Observations
 
