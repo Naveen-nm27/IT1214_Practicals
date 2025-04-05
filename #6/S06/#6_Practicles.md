@@ -1,6 +1,6 @@
 # Understanding Classes,Objects and Constructors
 **Practical Number** 6
-**Date** 04.04.2025
+**Date** 04.03.2025
 **Time** 10.30-12.30
 
 ## 1. Objective
@@ -56,15 +56,15 @@ class Student {
     
 ### Define a class Student
 
-    Declare two variables: name (String) and marks (int).
+-Declare two variables: name (String) and marks (int).
 
-Define a default constructor:
+-Define a default constructor:
 
     Print "Creating a Student Object".
 
     Assign "Default Name" to name.
 
-Define a parameterized constructor:
+-Define a parameterized constructor:
 
     Accept parameters String n and int m.
 
@@ -72,26 +72,25 @@ Define a parameterized constructor:
 
 ### Define a class Printer
 
-    Contains a method print(String s) to display a string.
+    -Contains a method print(String s) to display a string.
 
 ### Define the App class with main() method
 
-    Create an object of Printer class (currently this will cause a compile error because Printer is commented out).
+    -Create an object of Printer class (currently this will cause a compile error because Printer is commented out).
 
-    Print "Welcome to demo class App".
+    -Print "Welcome to demo class App".
 
 ### Create Student object S01 using the parameterized constructor
 
-    Pass "Alice" and 100 as arguments.
+-Pass "Alice" and 100 as arguments.
 
+-Update S01's name and marks manually.
 
-Update S01's name and marks manually.
-
-Print updated details.
+-Print updated details.
 
 ### Create Student object S02 using the parameterized constructor
 
-    Pass "Hatter" and 75 as arguments.
+    -Pass "Hatter" and 75 as arguments.
 
 ## 4. Source Code
 
@@ -112,5 +111,3 @@ Print updated details.
 ## 7. Conclusion
 
     -Constructors Run Automatically when you crete a new object which can be very useful to initializes the objects
-
-    -
