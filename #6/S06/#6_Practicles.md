@@ -94,7 +94,7 @@ class Student {
 
 ## 4. Source Code
 
-[Code]([https://github.com/Naveen-nm27/IT1214_Practicals/tree/main/%236/S06](https://github.com/Naveen-nm27/IT1214_Practicals/blob/main/%236/S06/IT1214_App.java))
+[Code](https://github.com/Naveen-nm27/IT1214_Practicals/blob/main/%236/S06/IT1214_App.java)
 
 
 ## 5. Sample Input & Expected Output
